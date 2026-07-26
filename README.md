@@ -20,9 +20,34 @@ The project follows a modular structure for netter maintainability.
 
 Key Components 
 
-parkingLot package
-* 
 
+vehicle package
+* Vehicle.java - Abstract class for vehicles.
+* Car.java, Bike.java, Truck.java - Specific implementations for vehicle types.
+
+payment package-
+* Payment.java- Manages payment logic.
+* PaymentStrategy.java - Strategy pattern for payment processing.
+* UPIPayment - Specific implementation for payment methods.
+
+
+service package
+* ParkingLot.java - responsible for generating Ticket at the the time vehicle comes in and calculates the the total fare at exit.
+
+pricing package
+* PricingStrategy.java  - Strategy pattern for calculating prices on the basis of type of vehicle.
+* BikePricingStrategy.java - Specific Implementation for calculating fare for BIKE.
+* CarPricingStrategy.java - Specific implementation for calculating fare for CAR.
+
+
+
+
+
+
+
+
+Main.java 
+ Entry point of the application. Contains the main method to initialize and run the parking lot system.
 
 
 Extending the System
