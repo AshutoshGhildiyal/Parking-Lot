@@ -1,4 +1,4 @@
-Parking Lot ( Low Level Design) 
+# Parking Lot ( Low Level Design) 
 
 
 This project is an LLD implementation of Parking Lot Management System. The project is build using SOLID priciples and Design Patterns using Java and adheres to the SOLID 
